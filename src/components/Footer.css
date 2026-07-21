@@ -1,0 +1,90 @@
+.cta-banner {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+  padding: 36px 0;
+}
+
+.cta-banner__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.cta-banner__text {
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.cta-banner__btn {
+  background: var(--accent);
+  color: var(--text-dark);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: background 0.2s, transform 0.15s;
+  white-space: nowrap;
+}
+
+.cta-banner__btn:hover {
+  background: var(--accent-light);
+  transform: scale(1.03);
+}
+
+.footer {
+  background: var(--primary-dark);
+  padding: 40px 0 28px;
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer__logo {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.footer__tagline {
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.55);
+}
+
+.footer__links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__links a {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer__links a:hover {
+  color: var(--accent);
+}
+
+.footer__copy {
+  color: rgba(255,255,255,0.35);
+  font-size: 0.82rem;
+  margin-top: 8px;
+}
