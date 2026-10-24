@@ -4,10 +4,6 @@ A responsive Persian RTL website template designed for schools, educational inst
 
 Built with React, this project provides a structured landing page for presenting educational services, introducing teachers, and communicating with students and parents.
 
-Preview
-
-<!-- Add a screenshot of the website here -->
-<!-- Example: ![Online School Preview](./screenshots/homepage.png) -->
 
 Live Demo: Coming soon
 
